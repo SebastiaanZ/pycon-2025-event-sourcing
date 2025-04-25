@@ -1,0 +1,31 @@
+[project]
+name = "pycon-2025-event-sourcing"
+version = "0.1.0"
+description = "Repository for the tutorial \"Event Sourcing From The Ground Up\" at PyCon US 2025 in Pittsburgh, PA."
+authors = [
+    { name = "Sebastiaan Zeeff", email = "sebastiaan.zeeff@soprasteria.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "kurrentdbclient (>=0.4,<0.5)",
+    "attrs (>=25.3.0,<26.0.0)",
+    "more-itertools (>=10.7.0,<11.0.0)",
+    "colorama (>=0.4.6,<0.5.0)",
+    "pytest (>=8.3.5,<9.0.0)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+isort = "^6.0.1"
+black = "^25.1.0"
+mypy = "^1.15.0"
+
+[tool.poetry.requires-plugins]
+poetry-plugin-export = ">=1.8"
