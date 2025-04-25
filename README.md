@@ -96,7 +96,7 @@ at all.
   <summary><i>Pulling the image with Podman</i></summary>
 
 ```bash
-podman pull docker.kurrent.io/kurrent-latest/kurrentdb:lts
+podman pull docker.kurrent.io/kurrent-latest/kurrentdb:latest
 ```
 
 </details>
@@ -105,7 +105,7 @@ podman pull docker.kurrent.io/kurrent-latest/kurrentdb:lts
   <summary><i>Pulling the image with Docker</i></summary>
 
 ```bash
-docker pull docker.kurrent.io/kurrent-latest/kurrentdb:lts
+docker pull docker.kurrent.io/kurrent-latest/kurrentdb:latest
 ```
 
 </details>
