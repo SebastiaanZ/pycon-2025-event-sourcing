@@ -1,5 +1,5 @@
 [project]
-name = "pycon-2025-event-sourcing"
+name = "connect_four"
 version = "0.1.0"
 description = "Repository for the tutorial \"Event Sourcing From The Ground Up\" at PyCon US 2025 in Pittsburgh, PA."
 authors = [
