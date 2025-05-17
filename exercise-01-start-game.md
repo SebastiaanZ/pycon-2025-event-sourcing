@@ -8,7 +8,7 @@
 
 In this exercise, we're going to implement the first part of the game: starting
 a game. To make this a bit easier, we've provided you with stub files for this
-exercise in `connect_four/exersize_01/`.
+exercise in `connect_four/exercise_01`.
 
 <details>
   <summary><i>Check your progress with the Connect Four CLI!</i></summary>
